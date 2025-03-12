@@ -58,10 +58,10 @@
 // Telefon raqamini topish
 
 // Telefon raqamini elon qilib olamiz :
-let Number = +998 (91)-123-4567;
+let Number = "+998 (91)-123-4567";
 
 // Telefon raqamini tekshiramiz va konsolga chiqaramiz :
-console.log(Number.match(/\+\d{3}\s\d{2}\)\-\d{3}\-\d{4}/g));
+console.log(Number.match(/\(\d{3}\)\-\d{3}\-\d{4}/g));
 
 // 2 - Masala Email adresini topish.
 
@@ -69,7 +69,7 @@ console.log(Number.match(/\+\d{3}\s\d{2}\)\-\d{3}\-\d{4}/g));
 let email = "ulugbek@gmail.com";
 
 // Emaili tekshiramiz va konsolga chiqaramiz :
-console.log(email.match(/+\@gmail\.com/g));
+
 
 // 3 - Masala Foydalanuvchi ismiga moslash
 
@@ -106,7 +106,7 @@ console.log(text.match(/[A-Z]/g));
 // 7 - Masala Validatsiya qilingan kredit karta raqamlarini topish
 
 // Kredit karta raqamini elon qilamiz :
-let cardNumber = XXXXXXXXXXXXXXXX;
+let cardNumber = XXXX-XXXX-XXXX-XXXX;
 
 // Kredit karta raqamini tekshiramiz va konsolga chiqaramiz :
-console.log(cardNumber.match(/\d{4}\s\d{4}\s\d{4}\s\d{4}/g));
+console.log(cardNumber.match(/\d{4}-\d{4}-\d{4}-\d{4}/g));
